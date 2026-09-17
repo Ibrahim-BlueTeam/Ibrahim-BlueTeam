@@ -1,0 +1,15 @@
+timestamp,event_code,host,target_user,source_ip,logon_type,status,sub_status,failure_reason,workstation
+2026-09-17T09:00:05Z,4625,DC01,j.smith,203.0.113.25,3,0xC000006D,0xC000006A,Unknown user name or bad password,WKSTN-22
+2026-09-17T09:00:40Z,4625,DC01,j.smith,203.0.113.25,3,0xC000006D,0xC000006A,Unknown user name or bad password,WKSTN-22
+2026-09-17T09:01:12Z,4625,DC01,j.smith,203.0.113.25,3,0xC000006D,0xC000006A,Unknown user name or bad password,WKSTN-22
+2026-09-17T09:01:50Z,4625,DC01,j.smith,203.0.113.25,3,0xC000006D,0xC000006A,Unknown user name or bad password,WKSTN-22
+2026-09-17T09:02:25Z,4625,DC01,j.smith,203.0.113.25,3,0xC000006D,0xC000006A,Unknown user name or bad password,WKSTN-22
+2026-09-17T09:03:01Z,4625,DC01,j.smith,203.0.113.25,3,0xC000006D,0xC000006A,Unknown user name or bad password,WKSTN-22
+2026-09-17T09:03:44Z,4625,DC01,j.smith,203.0.113.25,3,0xC000006D,0xC000006A,Unknown user name or bad password,WKSTN-22
+2026-09-17T09:04:16Z,4625,DC01,j.smith,203.0.113.25,3,0xC000006D,0xC000006A,Unknown user name or bad password,WKSTN-22
+2026-09-17T09:05:02Z,4625,DC01,j.smith,203.0.113.25,3,0xC000006D,0xC000006A,Unknown user name or bad password,WKSTN-22
+2026-09-17T09:05:48Z,4625,DC01,j.smith,203.0.113.25,3,0xC000006D,0xC000006A,Unknown user name or bad password,WKSTN-22
+2026-09-17T09:06:22Z,4625,DC01,j.smith,203.0.113.25,3,0xC000006D,0xC000006A,Unknown user name or bad password,WKSTN-22
+2026-09-17T09:12:08Z,4625,DC01,m.brown,198.51.100.50,2,0xC000006D,0xC000006A,Unknown user name or bad password,HR-LT-07
+2026-09-17T09:13:20Z,4625,DC01,m.brown,198.51.100.50,2,0xC000006D,0xC000006A,Unknown user name or bad password,HR-LT-07
+2026-09-17T09:14:43Z,4625,DC01,m.brown,198.51.100.50,2,0xC000006D,0xC000006A,Unknown user name or bad password,HR-LT-07
