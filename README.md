@@ -47,7 +47,6 @@ I am currently expanding my skills in Microsoft Sentinel, KQL, cloud security, d
 - MITRE ATT&CK
 - NIST Cybersecurity Framework
 - ISO 27001
-- HIPPA
 
   
 
