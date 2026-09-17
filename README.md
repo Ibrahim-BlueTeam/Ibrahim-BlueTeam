@@ -55,6 +55,7 @@ I am currently expanding my skills in Microsoft Sentinel, KQL, cloud security, d
 # Brute Force Detector
 
 **Status:** In Progress
+**Validation:** Simulated CSV log analysis in progress; Splunk SPL logic included for future SIEM testing.
 
 ## Objective
 Develop a SIEM detection use case for repeated failed Windows logon attempts using Windows Security Event ID 4625.
