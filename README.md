@@ -52,28 +52,25 @@ I am currently expanding my skills in Microsoft Sentinel, KQL, cloud security, d
 
 ## Portfolio Projects
 
-# Brute Force Detector
+### Brute Force Detector
 
-**Status:** In Progress
-**Validation:** Simulated CSV log analysis in progress; Splunk SPL logic included for future SIEM testing.
+**Status:** Completed  
+**Validation:** Manually validated using simulated Windows Event ID 4625 CSV logs.  
+**Detection Logic:** Splunk SPL query included for future testing in a compatible Splunk environment.  
 
-## Objective
-Develop a SIEM detection use case for repeated failed Windows logon attempts using Windows Security Event ID 4625.
+**Objective:** Developed and documented a detection use case for repeated failed Windows logon attempts. The project identifies 10 or more failed logons from the same IP address against the same account within 10 minutes.
 
-## Planned Deliverables
+**MITRE ATT&CK:** T1110 – Brute Force
+
+**Project Deliverables:**
+
 - Simulated Windows authentication logs
 - Splunk SPL detection query
-- MITRE ATT&CK mapping: T1110 – Brute Force
-- IOC and investigation worksheet
-- False-positive analysis
-- Incident-response recommendations
+- Manual CSV validation: 11 failed logons against `j.smith` from `203.0.113.25`
+- Investigation worksheet and IOC documentation
+- False-positive considerations and response recommendations
 - One-page incident report
 
-## Skills Demonstrated
-- Windows event log analysis
-- Splunk SPL
-- Alert triage
-- Incident investigation
-- MITRE ATT&CK mapping
-- Documentation and reporting
+[View the completed project](./03-brute-force-detector/)
+
 
