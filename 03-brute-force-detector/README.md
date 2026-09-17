@@ -1,6 +1,7 @@
 # Brute Force Detector
 
 **Status:** Completed
+
 **Validation:** Manually validated with simulated Windows Event ID 4625 CSV logs.  
 **Detection Logic:** Splunk SPL query included for future testing in a compatible Splunk environment.  
 
