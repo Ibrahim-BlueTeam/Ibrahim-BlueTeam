@@ -1,0 +1,8 @@
+index=windows EventCode=4625
+| eval target_user=coalesce(TargetUserName, Account_Name, user)
+| eval source_ip=coalesce(IpAddress, src_ip, src)
+| where isnotnull(target_user) AND isnotnull(source_ip)
+| bin _time span=10m
+| stats count as failed_attempts by _time, target_user, source_ip
+| where failed_attempts >= 10
+| sort - failed_attempts
