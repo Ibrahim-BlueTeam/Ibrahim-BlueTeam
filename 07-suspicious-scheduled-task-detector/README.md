@@ -1,6 +1,6 @@
 # Suspicious Scheduled Task Detector
 
-**Status:** In Progress  
+**Status:** Completed 
 **Project Type:** Windows Persistence Detection Use Case  
 **Data Source:** Simulated Windows Security Event Logs  
 **Primary Event ID:** 4698 — A scheduled task was created  
@@ -56,6 +56,13 @@ Alert when Windows Security Event ID 4698 shows newly created scheduled tasks wi
 - MITRE ATT&CK mapping
 - Alert triage and incident response
 - Technical documentation
+
+## Project Files
+
+- [Simulated Event ID 4698 Logs](simulated_scheduled_task_events.csv)
+- [Splunk Detection Query](detection_query.spl)
+- [Investigation Notes](investigation_notes.md)
+- [Incident Report](incident_report.md)
 
 ## Disclaimer
 
