@@ -1,0 +1,19 @@
+# Suspicious Scheduled Task Detector
+# Data source: Windows Security Event ID 4698
+# Note: Adapt index and field names to your Splunk environment.
+
+index=wineventlog EventCode=4698
+| eval task_details=lower(coalesce(TaskContent, Message, task_command." ".task_arguments))
+| where match(
+    task_details,
+    "(powershell\.exe|pwsh\.exe|cmd\.exe|wscript\.exe|cscript\.exe|mshta\.exe|rundll32\.exe|regsvr32\.exe|encodedcommand|-enc|\\appdata\\|\\temp\\|\\downloads\\|\\users\\public\\)"
+  )
+| eval detection_reason=case(
+    match(task_details, "(encodedcommand|-enc)"), "Encoded PowerShell command",
+    match(task_details, "\\appdata\\|\\temp\\|\\downloads\\|\\users\\public\\"), "Execution from user-writable path",
+    match(task_details, "(wscript\.exe|cscript\.exe|mshta\.exe|rundll32\.exe|regsvr32\.exe)"), "Suspicious Windows utility",
+    match(task_details, "(powershell\.exe|pwsh\.exe|cmd\.exe)"), "Command shell execution",
+    true(), "Suspicious scheduled task"
+  )
+| table _time Computer TaskName SubjectUserName task_details detection_reason
+| sort - _time
