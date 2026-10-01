@@ -73,4 +73,24 @@ I am currently expanding my skills in Microsoft Sentinel, KQL, cloud security, d
 
 [View the completed project](./03-brute-force-detector/)
 
+### Phishing Email Analyzer
+
+**Status:** Completed
+
+**Objective:** Analyzed a simulated Microsoft 365 credential-harvesting email by reviewing email headers, SPF/DKIM/DMARC results, sender and reply-to domains, social-engineering indicators, and a suspicious URL.
+
+**MITRE ATT&CK:** T1566 – Phishing; T1566.002 – Spearphishing Link; T1204.001 – Malicious Link
+
+**Project Deliverables:**
+
+- Simulated phishing email and headers
+- Email header and authentication analysis
+- Indicators of compromise (IOCs)
+- Investigation notes and response actions
+- Phishing incident report
+- Containment and remediation recommendations
+
+[View the completed project](./01-phishing-email-analyzer/)
+
+
 
