@@ -1,0 +1,31 @@
+SIMULATED PHISHING EMAIL - DEFENSIVE TRAINING DATA ONLY
+No links in this file should be opened or visited.
+
+From: Microsoft 365 Security <security-alert@micros0ft-support.example>
+Reply-To: Account Verification <verify-account@secure-login-alert.example>
+To: employee@contoso.example
+Subject: Action Required: Your Microsoft 365 account will be suspended
+Date: Wed, 30 Sep 2026 14:22:18 -0400
+Message-ID: <20260930142218.12345@micros0ft-support.example>
+
+Received: from mail.micros0ft-support.example (203.0.113.50)
+        by mail.contoso.example with ESMTP;
+        Wed, 30 Sep 2026 14:22:20 -0400
+
+Authentication-Results: mail.contoso.example;
+    spf=fail smtp.mailfrom=micros0ft-support.example;
+    dkim=none;
+    dmarc=fail header.from=microsoft.com
+
+Hello,
+
+We detected unusual activity on your Microsoft 365 account.
+To prevent immediate suspension, verify your account within 30 minutes.
+
+Verify your account:
+hxxps://microsoft-account-verify.example/login
+
+If you do not complete verification, access to Outlook and Microsoft Teams
+will be disabled.
+
+Microsoft 365 Security Team
