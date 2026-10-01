@@ -73,6 +73,26 @@ I am currently expanding my skills in Microsoft Sentinel, KQL, cloud security, d
 
 [View the completed project](./03-brute-force-detector/)
 
+### Suspicious Scheduled Task Detector
+
+**Status:** Completed
+
+**Objective:** Developed a detection and investigation use case for suspicious Windows scheduled-task creation using simulated Event ID 4698 logs. The project focuses on identifying potential persistence or execution activity involving encoded PowerShell, command interpreters, suspicious task names, and user-writable file paths.
+
+**MITRE ATT&CK:** T1053.005 – Scheduled Task/Job: Scheduled Task
+
+**Project Deliverables:**
+
+- Simulated Windows Event ID 4698 scheduled-task logs
+- Detection logic for suspicious task creation
+- Investigation notes and IOC documentation
+- False-positive analysis
+- Incident-response recommendations
+- One-page incident report
+
+[View the completed project](./07-suspicious-scheduled-task-detector/)
+
+
 ### Phishing Email Analyzer
 
 **Status:** Completed
