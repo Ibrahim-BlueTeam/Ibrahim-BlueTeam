@@ -28,5 +28,12 @@ A user reported an email that appeared to be from Microsoft 365 support. The ema
 - Incident report
 - Response recommendations
 
+- ## Project Files
+
+- [Email header analysis](analysis/header_analysis.md)
+- [Indicators of compromise (IOCs)](analysis/iocs.md)
+- [Simulated phishing email sample](data/simulated_phishing_email.txt)
+
+
 ## Disclaimer
 This is a defensive cybersecurity portfolio project that uses simulated data only. No malicious links were accessed, opened, or executed.
