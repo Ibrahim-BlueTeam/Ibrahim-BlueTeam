@@ -28,6 +28,17 @@ A user reported an email that appeared to be from Microsoft 365 support. The ema
 - Incident report
 - Response recommendations
 
+- ## Skills Demonstrated
+
+- Phishing email triage
+- Email header analysis
+- Indicator of compromise extraction
+- Threat intelligence enrichment
+- MITRE ATT&CK mapping
+- Incident-response recommendations
+- Security investigation documentation
+
+
 - ## Project Files
 
 - [Email header analysis](analysis/header_analysis.md)
