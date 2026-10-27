@@ -113,4 +113,22 @@ I am currently expanding my skills in Microsoft Sentinel, KQL, cloud security, d
 [View the completed project](./01-phishing-email-analyzer/)
 
 
+### URL and File Hash Checker
+
+**Status:** Completed
+
+**Objective:** Performed manual threat-intelligence enrichment for a simulated phishing URL and Windows executable hash using simulated VirusTotal-style reputation results. Assessed vendor detections, phishing context, file type, and double-extension risk indicators to assign SOC triage verdicts and recommend containment actions.
+
+**MITRE ATT&CK:** T1566.002 – Spearphishing Link; T1204.001 – Malicious Link; T1204.002 – Malicious File
+
+**Project Deliverables:**
+
+- Simulated URL and SHA-256 hash reputation results
+- URL and file-hash analysis
+- Indicators of compromise (IOCs)
+- Investigation notes and containment workflow
+- Incident report with response recommendations
+
+[View the completed project](./04-url-file-hash-checker/)
+
 
